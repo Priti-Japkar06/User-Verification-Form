@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    padding: 60px;
+    display: flex;
+}
+
+.container {
+    background-color: aqua;
+    height: 50vh;
+    width: 50vw;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+input {
+   height: 4vh; 
+   border: 1px;
+   text-align: center;
+   font-size: 13px;
+   font-weight: lighter;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    height: 4vh;
+    width: 15vw;
+    background-color: blanchedalmond;
+    border: none;
+    border-top-left-radius: 12PX;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+button:hover {
+    background-color: rgb(125, 125, 199);
+}
